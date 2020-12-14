@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WebBrowser</class>
+ <widget class="QMainWindow" name="WebBrowser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>812</width>
+    <height>755</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WebBrowser</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+background-color: #E4F2AE;
+}</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="webviewFrame">
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="leftMargin">
+          <number>2</number>
+         </property>
+         <property name="topMargin">
+          <number>2</number>
+         </property>
+         <property name="rightMargin">
+          <number>2</number>
+         </property>
+         <property name="bottomMargin">
+          <number>2</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="back">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+background-color: #7CBF69;
+border: none;
+border-radius: 2px;
+padding: 5px 10px;
+color: #E4F2AE;
+margin: 0 10px;
+}
+
+QPushButton:pressed {
+color: white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Back</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="forward">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+background-color: #7CBF69;
+border: none;
+border-radius: 2px;
+padding: 5px 10px;
+color: #E4F2AE;
+margin: 0 10px;
+}
+
+QPushButton:pressed {
+color: white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Forward</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="refresh">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+background-color: #7CBF69;
+border: none;
+border-radius: 2px;
+padding: 5px 10px;
+color: #E4F2AE;
+margin: 0 10px;
+}
+
+QPushButton:pressed {
+color: white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Refresh</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="addressInput">
+           <property name="styleSheet">
+            <string notr="true">QLineEdit {
+background-color: #F2E749;
+color: #7CBF69;
+}</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="go">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+background-color: #7CBF69;
+border: none;
+border-radius: 2px;
+padding: 5px 10px;
+color: #E4F2AE;
+margin: 0 10px;
+}
+
+QPushButton:pressed {
+color: white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Go</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QFrame" name="pageview_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <layout class="QVBoxLayout" name="pageview">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>10</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>812</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
